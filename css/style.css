@@ -59,7 +59,9 @@ body {
 a, a:visited {
 	text-decoration: none;
 }
+/* Header end */
 
+/* Main section start */
 .main-section {
 	background-image: url("../images/background_3.jpg");
 	background-size: 100%;
@@ -104,7 +106,6 @@ a, a:visited {
 	flex: 1 1 0;
 	width: 60vw;
 	color: white;
-	padding-left: 3vmin;
 }
 
 .hero-main {
@@ -152,9 +153,15 @@ a, a:visited {
 	align-items: center;
 	flex: 1 1 0;
 	width: 45vw;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
     height: auto;
+}
+
+.right-block figure {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .right-block img {
@@ -224,7 +231,9 @@ a, a:visited {
 		flex-direction: column;
 	}
 }
+/* Main section end */
 
+/* Subsection 1 start */
 .subsection-1 {
 	background: rgb(205, 178, 128);
 	width: 100%;
@@ -267,7 +276,7 @@ a, a:visited {
 
 .item .card:hover {
 	transition: 0.3s;
-	box-shadow: 3px 3px 10px rgba(205, 205, 205, 0.65);
+	box-shadow: 4px 4px 10px rgba(205, 205, 205, 0.65);
 }
 
 .card {
@@ -312,3 +321,42 @@ figcaption a:hover {
 	transition: 1s;
 	box-shadow: 2px 2px 10px rgba(180, 116, 6, 0.622);
 }
+/* Subsection 1 end */
+
+/* Subsection 2 start */
+.subsection-2 {
+	background-image: url("../images/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: -40vh;
+	display: block;
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.s2-wrapper {
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.s2-wrapper:nth-child(1) {
+	text-align: center;
+	font-style: italic;
+}
+
+.subsection-2 p {
+	padding: 0 20vmin;
+	color: rgb(255, 255, 255);
+	font-size: 7vmin;
+	text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.75);
+	line-height: 12vmin;
+}
+/* Subsection 2 end */
+
+/* Subsection 3 start */
+

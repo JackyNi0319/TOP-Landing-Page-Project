@@ -544,7 +544,7 @@ figcaption a:hover {
 	text-align: center;
     text-decoration: none;
 	color: white;
-    border: 1vmin solid white;
+    border: 1vmin solid rgb(255, 255, 255);
     background-image: linear-gradient(rgba(28, 204, 227, 0.7),rgba(14, 95, 95, 0.7));
 	font-size: 2.5vmin;
     border-radius: 2vmin;
@@ -558,10 +558,8 @@ figcaption a:hover {
 }
 
 .s3-box button:hover {
-	font-size: 3vmin;
-	border-radius: 2.25vmin;
-	padding: 1.25vmin;
 	transition: 0.3s;
+	border-color: rgba(255, 255, 255, 0.722);
 	text-shadow: 2px 2px 8px rgba(83, 83, 83, 0.6);
 }
 
